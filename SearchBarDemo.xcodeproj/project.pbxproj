@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		119F2411213538E700A3356E /* InfoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 119F240F213538E700A3356E /* InfoCollectionViewCell.m */; };
 		119F2412213538E700A3356E /* InfoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119F2410213538E700A3356E /* InfoCollectionViewCell.xib */; };
+		11BE712B2153330600E0D83D /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BE712A2153330600E0D83D /* screen.png */; };
 		11E1C4462135351500FC522B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E1C4452135351500FC522B /* AppDelegate.m */; };
 		11E1C4492135351500FC522B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E1C4482135351500FC522B /* ViewController.m */; };
 		11E1C44C2135351500FC522B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E1C44A2135351500FC522B /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		119F240E213538E700A3356E /* InfoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoCollectionViewCell.h; sourceTree = "<group>"; };
 		119F240F213538E700A3356E /* InfoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoCollectionViewCell.m; sourceTree = "<group>"; };
 		119F2410213538E700A3356E /* InfoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoCollectionViewCell.xib; sourceTree = "<group>"; };
+		11BE712A2153330600E0D83D /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
 		11E1C4412135351500FC522B /* SearchBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E1C4442135351500FC522B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11E1C4452135351500FC522B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11BE7129215332EE00E0D83D /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				11BE712A2153330600E0D83D /* screen.png */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
 		11E1C4382135351500FC522B = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 		11E1C4432135351500FC522B /* SearchBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				11BE7129215332EE00E0D83D /* screen */,
 				11E1C45E2135385A00FC522B /* vc */,
 				11E1C45D2135384900FC522B /* view */,
 				11E1C4442135351500FC522B /* AppDelegate.h */,
@@ -184,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E1C4512135351600FC522B /* LaunchScreen.storyboard in Resources */,
+				11BE712B2153330600E0D83D /* screen.png in Resources */,
 				11E1C44E2135351500FC522B /* Assets.xcassets in Resources */,
 				119F2412213538E700A3356E /* InfoCollectionViewCell.xib in Resources */,
 				11E1C44C2135351500FC522B /* Main.storyboard in Resources */,
@@ -323,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -375,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -390,13 +402,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4436LF79T;
 				INFOPLIST_FILE = SearchBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.asap.SearchBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,13 +421,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4436LF79T;
 				INFOPLIST_FILE = SearchBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.asap.SearchBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

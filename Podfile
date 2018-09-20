@@ -1,4 +1,4 @@
-platform :ios, ‘8.0’
+platform :ios, ‘12.0’
 ## ignore warning
 inhibit_all_warnings!
 
